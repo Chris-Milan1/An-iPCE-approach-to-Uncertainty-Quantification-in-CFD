@@ -21,3 +21,9 @@ The project investigates and compares two primary methods for uncertainty quanti
 
 ## Conclusion
 The results of this study demonstrate that **Polynomial Chaos Expansion (PCE)** significantly reduces computational overhead compared to traditional Monte Carlo methods while maintaining the accuracy required for high-stakes engineering applications. This makes it a viable tool for real-time simulation and optimization in complex engineering systems.
+
+## Disclaimer & Usage
+> [!IMPORTANT]
+> **Simulation Disclaimer**: The surrogate models provided in this repository are statistical approximations of high-fidelity simulations. While they have been validated for predictive robustness, their accuracy is inherently limited by the quality of the training data and the fidelity of the underlying numerical models. These models must be independently verified before being applied to specific engineering contexts. Use of this code is at the user’s own risk; it is officially advised that all results be independently validated and a Chartered Engineer be consulted prior to implementation.
+>
+> **Notification of Use**: Intellectual property rights remain with the author. **The author must be notified and permission must be obtained prior to the use, adaptation, or citation of this framework or its results** in any academic, commercial, or professional capacity.
